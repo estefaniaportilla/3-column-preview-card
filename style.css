@@ -1,4 +1,5 @@
 /* Main */
+
 * {
     padding: 0;
     margin: 0;
@@ -13,9 +14,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 /* END Main */
 
 /* Cards */
+
 #container {
     width: 900px;
     background-color: hsl(0, 0%, 95%);
@@ -42,16 +45,16 @@ body {
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
-    opacity: .98;
+    opacity: .90;
     font-size: 3rem;
     text-transform: uppercase;
-    font-weight: 250px;
+    font-weight: 100px;
     margin-top: 30px;
     color: hsl(0, 0%, 95%);
 }
 
 p {
-    opacity: .90;
+    opacity: .85;
     padding-right: 40px;
     font-weight: lighter;
 }
@@ -59,7 +62,7 @@ p {
 button {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    font-size: .6 rem;
+    font-size: .5 rem;
     margin-top: 40px;
     padding: 13px 30px;
     border-radius: 60px;
@@ -100,6 +103,7 @@ button {
     color: white;
     border: 2px solid white;
 }
+
 /* END Cards */
 
 /* Footer */
@@ -122,6 +126,7 @@ footer a {
 
 
 /* Media */
+
 @media(max-width:1000px) {
     #container {
         padding: 15px;
@@ -139,4 +144,5 @@ footer a {
         border-bottom-right-radius: 8px;
     }
 }
+
 /* END Media */
