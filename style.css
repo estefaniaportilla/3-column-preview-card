@@ -42,16 +42,16 @@ body {
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
-    opacity: .90;
+    opacity: .98;
     font-size: 3rem;
     text-transform: uppercase;
-    font-weight: 100px;
+    font-weight: 250px;
     margin-top: 30px;
     color: hsl(0, 0%, 95%);
 }
 
 p {
-    opacity: .85;
+    opacity: .90;
     padding-right: 40px;
     font-weight: lighter;
 }
@@ -59,7 +59,7 @@ p {
 button {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    font-size: .5 rem;
+    font-size: .6 rem;
     margin-top: 40px;
     padding: 13px 30px;
     border-radius: 60px;
