@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-/* Main */
+/* END Main */
 
 /* Cards */
 #container {
@@ -100,9 +100,9 @@ button {
     color: white;
     border: 2px solid white;
 }
+/* END Cards */
 
 /* Media */
-
 @media(max-width:1000px) {
     #container {
         padding: 15px;
@@ -120,7 +120,7 @@ button {
         border-bottom-right-radius: 8px;
     }
 }
-/* Cards */
+/* END Media */
 
 
 /* Footer */
@@ -138,4 +138,4 @@ footer a {
     color: hsl(228, 45%, 44%); 
 } */
 
-/* Footer */
+/* END Footer */
