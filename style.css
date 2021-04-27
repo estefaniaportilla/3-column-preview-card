@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+#container {
+    background-color:  hsl(0, 0%, 95%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1.01rem;
+    margin-top: 40px;
+    padding: 17px 30px;
+    border-radius: 60px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.orange .click {
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan .click {
+    color:hsl(184, 100%, 22%);
+}
+
+.dark .click {
+    color: hsl(179, 100%, 13%);
+}
+
+.orange img {
+}
+
+#container div {
+    padding-top: 45px;
+    padding-left: 50px;
+    padding-bottom: 45px;
+}
+
+#container div p {
+    margin-top: 35px;
+    line-height: 1.6;
+    padding-right: 47px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+p {
+    padding-right: 40px
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+  }
